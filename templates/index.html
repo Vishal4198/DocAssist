@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Doc Assist Recommendation</title>
+        <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    </head>
+    <body>
+        <h1>Doc Assist</h1>
+        <h2>Treatment recommendation</h2>
+        <form method="POST" action="{{ url_for('index') }}">
+            <label for="HAEMATOCRIT">Haematocrit:</label>
+            <input type="number" step="any" name="HAEMATOCRIT" required><br><br>
+            <label for="HAEMOGLOBINS">Haemoglobins:</label>
+            <input type="number" step="any" name="HAEMOGLOBINS" required><br><br>
+            <label for="ERYTHROCYTE">Erythrocyte:</label>
+            <input type="number" step="any" name="ERYTHROCYTE" required><br><br>
+            <label for="LEUCOCYTE">Leucocyte:</label>
+            <input type="number" step="any" name="LEUCOCYTE" required><br><br>
+            <label for="THROMBOCYTE">Thrombocyte:</label>
+            <input type="number" step="any" name="THROMBOCYTE" required><br><br>
+            <label for="MCH">MCH:</label>
+            <input type="number" step="any" name="MCH" required><br><br>
+            <label for="MCHC">MCHC:</label>
+            <input type="number" step="any" name="MCHC" required><br><br>
+            <label for="MCV">MCV:</label>
+            <input type="number" step="any" name="MCV" required><br><br>
+            <label for="AGE">Age:</label>
+            <input type="number" name="AGE" required><br><br>
+            <label for="SEX">Sex:</label>
+            <select name="SEX">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <h3>
+            {% if treatment_recommendation %}
+            <p>Treatment recommendation: {{ treatment_recommendation }}</p>
+            {% endif %}
+        </h3>
+    </body>
+</html>
