@@ -49,3 +49,18 @@ After executing `sourcecode.ipynb`, the `model.joblib` file will be created insi
 4. Once done `Ctrl` + `C` on the terminal to stop the application `app.py`.
 
 ![Command prompt terminal](static/command_prompt_terminal.jpg)
+
+## Sample data for testing
+
+### Male sample data
+| HAEMATOCRIT | HAEMOGLOBINS | ERYTHROCYTE | LEUCOCYTE | THROMBOCYTE | MCH  | MCHC | MCV  | AGE | SEX |
+|--------------|--------------|-------------|-----------|-------------|------|------|------|-----|-----|
+| 48.5         | 16.5         | 5.63        | 8         | 299         | 29.3 | 34   | 86.1 | 29  | M   |
+| 31.7         | 10.9         | 3.84        | 15.1      | 45          | 27.3 | 33.1 | 82.6 | 71  | M   |
+
+
+### Female sample data
+| HAEMATOCRIT | HAEMOGLOBINS | ERYTHROCYTE | LEUCOCYTE | THROMBOCYTE | MCH  | MCHC | MCV  | AGE | SEX |
+|--------------|--------------|-------------|-----------|-------------|------|------|------|-----|-----|
+| 35.4         | 11.9         | 3.9         | 5.3       | 243         | 30.5 | 33.6 | 90.8 | 35  | F   |
+| 31.7         | 10.6         | 3.74        | 8.5       | 268         | 28.3 | 33.4 | 84.8 | 24  | F   |
