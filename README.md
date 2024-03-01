@@ -1,7 +1,6 @@
 # DocAssist
 A Machine Learning project which help the doctors to detect whether the patients need the treatment or not based on the Blood analysis dataset.
 
-
 # Project Setup and Execution
 
 ## Step 1: Clone the Repository or Download the ZIP
@@ -30,23 +29,24 @@ After executing `sourcecode.ipynb`, the `model.joblib` file will be created insi
 
 1. Open the project in VS Code.
 2. Locate `app.py`, which contains the Flask code for designing the user interface and uses HTML for webpage design.
-3. Before running the `app.y` ensure `model.joblib` is present in the models directory.
-3. Run `app.py` in VS Code.
-4. The terminal at the bottom of the VS Code screen will show a local connection for the webpage.
-5. Hold `Ctrl` + `click` to open the webpage in your default browser or you can copy and paste it your desired browser.
-6. You can now see the user interface for entering the requested data. After inputting the data, click "Submit" to predict the output using the pre-trained model `model.joblib`.
-7. Once you finish. `Ctrl` + `C` on the terminal to stop the application `app.py`.
+3. Before running the `app.y` ensure `model.joblib` is present in the models directory and is updated.
+4. Run `app.py` in VS Code.
+5. The terminal at the bottom of the VS Code screen will show a local connection for the webpage.
+6. Hold `Ctrl` + `click` to open the webpage in your default browser or you can copy and paste it your desired browser.
+7. You can now see the user interface for entering the requested data. After inputting the data, click "Submit" to predict the output using the pre-trained model `model.joblib`.
+8. Once you finish. `Ctrl` + `C` on the terminal to stop the application `app.py`.
 
 ![VScode terminal](static/vscode_terminal.jpg)
 
 ### Using Command Prompt or PowerShell
 
 1. Open the Command Prompt or PowerShell from the project folder.
-2. Run the following command:
+2. Before running the `app.y` ensure `model.joblib` is present in the models directory and is updated.
+3. Run the following command:
    ```sh
    python app.py
-3. After running the command, a local connection link for the webpage will be displayed. Click on the link to open the webpage in your default browser or copy and paste it your desired browser. Input your data, and the output will be predicted using the pre-trained model.
-4. Once done `Ctrl` + `C` on the terminal to stop the application `app.py`.
+4. After running the command, a local connection link for the webpage will be displayed. Click on the link to open the webpage in your default browser or copy and paste it your desired browser. Input your data, and the output will be predicted using the pre-trained model.
+5. Once done `Ctrl` + `C` on the terminal to stop the application `app.py`.
 
 ![Command prompt terminal](static/command_prompt_terminal.jpg)
 
